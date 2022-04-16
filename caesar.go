@@ -13,8 +13,8 @@ func main() {
 	var s int
 	var to_encrypt bool
 	var to_decrypt bool
-	flag.StringVar(&infile, "i", "cleartext.txt", "Specify input file. Default is cleartext.txt")
-	flag.StringVar(&outfile, "o", "ciphertext.txt", "Specify output file. Default is password")
+	flag.StringVar(&infile, "i", "cleartext.txt", "Specify input file. Default is cleartext.txt.")
+	flag.StringVar(&outfile, "o", "ciphertext.txt", "Specify output file. Default is ciphertext.txt.")
 	flag.IntVar(&s, "s", -1, "Specify shift. Should be 8 bit unsigned integer.")
 	flag.BoolVar(&to_encrypt, "e", false, "Specify encryption. Default is true.")
 	flag.BoolVar(&to_decrypt, "d", false, "Specify decryption. Default is false.")
